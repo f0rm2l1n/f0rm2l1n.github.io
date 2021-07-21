@@ -4,7 +4,7 @@ title: Notice in the clave
 subtitle: Well, you found me
 cover-img: /assets/img/billboard.png
 share-img: /assets/img/billboard.png
-tags: [life]
+tags: [Life]
 published: true
 ---
 

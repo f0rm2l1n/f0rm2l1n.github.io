@@ -15,17 +15,17 @@ I just want to share this with all of you, hope you will like it.
 
 The order is casually decided... I will finish them as soon as possible :)
 
-* [CVE-2015-3636](../2020-05-07-CVE-2015-3636)
+* [CVE-2015-3636](../2020-05-07-CVE-2015-3636) ping-pong root.
 
 * [CVE-2016-8655](../CVE-2016-8655) under working
 
-* [CVE-2016-0728](../CVE-2016-0728)
+* [CVE-2016-0728](../2020-06-07-CVE-2016-0728) ref-count overflow
 
 * [CVE-2016-4557](../CVE-2016-4557) under working
 
 * [CVE-2016-9793](../CVE-2016-9793) under working
 
-* [CVE-2016-5195](../CVE-2016-5195)
+* [CVE-2016-5195](../2020-06-06-CVE-2016-5195) Dirty-COW.
 
 * [CVE-2017-7038](../CVE-2017-7038) under working
 
