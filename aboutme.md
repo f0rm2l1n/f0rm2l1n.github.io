@@ -16,6 +16,8 @@ I am a student, enjoying+suffering from fighting for the doctor's degree at [ICS
 
 Moreover, I like the CTF game for its coolness and I also play for my school band: [Azure Assassin Alliance](https://ctftime.org/team/4070).
 
+![AAA_logo.jpg](https://i.loli.net/2021/07/21/xftpXjBmZOiUhKw.jpg){: .mx-auto.d-block :}
+
 It's hard to balance the time between researching and CTFing, also a bunch of other things, girlfriend included. Though life is so cruel, we have to be happy :D.
 
 ## Bugs
