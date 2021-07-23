@@ -168,6 +168,7 @@ The `hdev` object will be ultimately released when the underground driver calls 
 
 This abnormal `hdev` refcnt dropping routine is not safe as expected. In fact, it can easily race with the USING routine like below.
 
+```
 hci_sock_bound_ioctl thread    |    hci_unregister_dev thread
                                |
                                |
@@ -183,7 +184,7 @@ if (!hdev)                     |
 hci_dev_lock(hdev);            |
                                |
                                |
-....
+```
 
 You can refer to the oss report (https://www.openwall.com/lists/oss-security/2021/06/08/2) for details like POC and crash log.
 
@@ -210,6 +211,7 @@ The `{3}` marked code get its content from userspace, which means we can adopt t
 
 The race will be like below.
 
+```
 hci_sock_bound_ioctl thread    |    hci_unregister_dev thread
                                |
                                |
@@ -229,6 +231,7 @@ ____________________________   |
 hci_dev_lock(hdev);            |
                                |
                                |
+```
 
 Therefore, with this stable UAF, let's write our exploit.
 
