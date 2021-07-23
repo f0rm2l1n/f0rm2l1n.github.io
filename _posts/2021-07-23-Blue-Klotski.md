@@ -218,9 +218,9 @@ hci_sock_bound_ioctl thread    |    hci_unregister_dev thread
 if (!hdev)                     |    
     return -EBADFD;            |    
                                |
-copy_from_user()	           |
+copy_from_user()               |
 ____________________________   |
-							   |
+                               |
                                |    hci_pi(sk)->hdev = NULL;
                                |    ...
     userfaultfd hang           |    hci_dev_put(hdev);
