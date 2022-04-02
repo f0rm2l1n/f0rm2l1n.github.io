@@ -22,13 +22,26 @@ It's hard to balance the time between researching and CTFing, also a bunch of ot
 
 ## Bugs
 
-- CVE-2021-32399, CVE-2021-3564, CVE-2021-3573 and CVE-2021-3640
+- Linux:
+    - CVE-2021-3573 and other CVEs in the kernel network stacks
+
+(wants more, wants more)
+
 
 ## Publications & Awards
 
 **2020**
 
-[\.] Ma, Lin , et al. "Atlas: A First Step Toward Multipath Validation." Computer Networks (2020):107224.
+[\.] **Ma, Lin** , et al. "Atlas: A First Step Toward Multipath Validation." Computer Networks (2020):107224.
 
 > That is my first paper ;P, about path validation algorithm. The [click router](https://alan-mushi.github.io/2015/09/15/Click-Modular-Router-tutorial-intro.html) is an interesting emulator that you can try on.
 
+[\.] Qiang Liu^, Cen Zhang^, **Lin Ma** , et al. "FirmGuide: Boosting the Capability of Rehosting Embedded Linux Kernels through Model-Guided Kernel Execution". AES 2021
+
+[\.] Muhui Jiang, **Lin Ma** , et al. ECMO: Peripheral Transplantation to Rehost Embedded Linux Kernels. CCS 2021
+
+> Enter the lab, help the seniors do some experiments, and learn the spirit from them.
+
+[\.] **Lin Ma**, et al. "Revisiting Challenges for Selective Data Protection of Real Applications." APSys 2021
+
+> My paper for the Undergraduate
