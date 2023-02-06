@@ -23,12 +23,19 @@ It's hard to balance the time between researching and CTFing, also a bunch of ot
 ## Bugs
 
 - Linux:
-    - CVE-2021-3573 and other CVEs in the kernel network stacks
+    - [CVE-2021-3573]() and other CVEs in the kernel network stacks
+    - [CVE-2023-0468] and [CVE-2023-0469], two interesting io_uring CVEs.
 
 (wants more, wants more)
 
 
 ## Publications & Awards
+
+**2022**
+
+[\.] **Ma, Lin** , et al. "When Top-down Meets Bottom-up: Detecting and Exploiting Use-After-Cleanup Bugs in Linux Kernel" [IEEE Symposium on Security and Privacy 2023](https://www.ieee-security.org/TC/SP2023/).
+
+> CUAF is difficult, while UAC is somewhat easier, check out the [paper](https://www.computer.org/csdl/proceedings-article/sp/2023/933600b472/1Js0DZUDcyI).
 
 **2020**
 
