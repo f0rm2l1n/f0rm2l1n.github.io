@@ -23,11 +23,11 @@ It's hard to balance the time between researching and CTFing, also a bunch of ot
 ## Bugs
 
 - Linux:
-    - [CVE-2021-3573]() and other CVEs in the kernel network stacks
-    - [CVE-2023-0468] and [CVE-2023-0469], two interesting io_uring CVEs.
+    - [CVE-2021-3573]() BT CUAF that causes LPE
+        - ... there are some others, checkout the paper below ...
+    - [CVE-2023-0468]() and [CVE-2023-0469](), two interesting io_uring CVEs.
 
 (wants more, wants more)
-
 
 ## Publications & Awards
 
