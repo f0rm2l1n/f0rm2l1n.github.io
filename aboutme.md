@@ -18,7 +18,7 @@ Moreover, I am currently involved as a research intern in Ant Security Light-Yea
 
 Moreover, I like the CTF game for its coolness and I also play for my school band: [Azure Assassin Alliance](https://ctftime.org/team/4070).
 
-![AAA_logo.png](https://s2.loli.net/2023/08/03/z3TLY5XevOM4qWE.png){: .mx-auto.d-block :}
+![AAA-smaller.bmp.png](https://s2.loli.net/2023/08/03/9LxKQdHpEm2VcoD.png){: .mx-auto.d-block :}
 
 It's hard to balance the time between researching and CTFing, also a bunch of other things, ~~girlfriend included~~. Though life is so cruel, we have to be happy :D.
 
