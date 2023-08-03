@@ -1,9 +1,0 @@
-- TCTF: Secure Storage (Kernel Part)
-- chainflag wp !!
-- Google CTF: learn about ELF malware
-- Learn Linux BT stack with emulator
-- Learn Linux NFC stack with emualtor
-- debug and reproduce bleedingtooth
-- Blue Klotski (CVE-2021-3564) and a story of terrible patch
-
-TODO

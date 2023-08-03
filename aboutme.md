@@ -12,22 +12,42 @@ Anyhow, it make senses for me.
 
 * * *
 
-I am a student, enjoying+suffering from fighting for the doctor's degree at [ICSR](https://icsr.zju.edu.cn/en/), ZJU in Hangzhou, China.
+I am a student, enjoying + suffering from fighting for the doctor's degree at [ICSR](https://icsr.zju.edu.cn/en/), ZJU in Hangzhou, China, under the supervision of Prof. [Yajin (Andy) Zhou](https://yajin.org/).
+
+Moreover, I am currently involved as a research intern in Ant Security Light-Year Lab, focusing on finding vulnerabilities in kernel.
 
 Moreover, I like the CTF game for its coolness and I also play for my school band: [Azure Assassin Alliance](https://ctftime.org/team/4070).
 
 ![AAA_logo.jpg](https://i.loli.net/2021/07/21/xftpXjBmZOiUhKw.jpg){: .mx-auto.d-block :}
 
-It's hard to balance the time between researching and CTFing, also a bunch of other things, girlfriend included. Though life is so cruel, we have to be happy :D.
+It's hard to balance the time between researching and CTFing, also a bunch of other things, ~~girlfriend included~~. Though life is so cruel, we have to be happy :D.
+
+> By the way, I was married already, feel sorry for the girls I have not met ever :D
 
 ## Bugs
 
-- Linux:
-    - [CVE-2021-3573]() BT CUAF that causes LPE
-        - ... there are some others, checkout the paper below ...
-    - [CVE-2023-0468]() and [CVE-2023-0469](), two interesting io_uring CVEs.
+- [CVE-2021-3573](https://nvd.nist.gov/vuln/detail/CVE-2021-3573) BT CUAF that causes LPE (known as Blue Klostski)
+- [CVE-2021-3564](https://access.redhat.com/security/cve/cve-2021-3564) BT CUAF when device registration fails
+- [CVE-2021-3640](https://access.redhat.com/security/cve/cve-2021-3640) BT CUAF like the blue klostiski but in SCO subsystem
+- [CVE-2021-3760](https://access.redhat.com/security/cve/cve-2021-3760) NFC CUAF to rfkill reference
+- [CVE-2021-4202](https://access.redhat.com/security/cve/cve-2021-4202) NFC CUAF like blue klostiski
+- [CVE-2022-1198](https://access.redhat.com/security/cve/cve-2022-1198) 6pack driver CUAF
+- [CVE-2022-2318](https://access.redhat.com/security/cve/cve-2022-2318) rose driver CUAF
+- also participate into finding several concurrenct bugs like:
+    - [CVE-2022-1734](https://access.redhat.com/security/cve/cve-2022-1734) NFC firmware downloading procedure double free
+    - [CVE-2022-1974](https://access.redhat.com/security/cve/cve-2022-1974) NFC firmware downloading procedure race condition
+    - [CVE-2022-1199](https://access.redhat.com/security/cve/cve-2022-1199) AX25 null-ptr-deref from race in sendmsg
+    - [CVE-2022-1204](https://access.redhat.com/security/cve/cve-2022-1204) AX25 race condition in rebinding
+    - [CVE-2022-1205](https://access.redhat.com/security/cve/cve-2022-1205) AX25 null-ptr-deref from race in timer
+    - [CVE-2022-1516](https://access.redhat.com/security/cve/cve-2022-1516) X25 null-ptr-deref
+- [CVE-2023-0468](https://access.redhat.com/security/cve/cve-2023-0468) and [CVE-2023-0469](https://access.redhat.com/security/cve/cve-2023-0469), two interesting io_uring CVEs
+    - one of this CVE has been used to kill kCTF (by someone else T.T)
+- [CVE-2023-3439](https://access.redhat.com/security/cve/cve-2023-3439) MCTP use-after-free read
+- [CVE-2023-3863](https://access.redhat.com/security/cve/cve-2023-3863) NFC race condition
+- [CVE-2023-3772](https://access.redhat.com/security/cve/cve-2023-3772) XFRM null-ptr-deref
+- [CVE-2023-3773](https://access.redhat.com/security/cve/cve-2023-3773) XFRM heap data leakage
 
-(wants more, wants more)
+> However, I have not yet found the Dream lover (bug). I guess it is okay as a researcher but not cool at all for a security researcher. Keep going f0rm2l1n.
 
 ## Publications & Awards
 
@@ -52,3 +72,17 @@ It's hard to balance the time between researching and CTFing, also a bunch of ot
 [\.] **Lin Ma**, et al. "Revisiting Challenges for Selective Data Protection of Real Applications." APSys 2021
 
 > My paper for the Undergraduate
+
+## Others
+
+I have been the TA for the courses "SSEC: Software-Security" for many years, you can check them at
+
+- [ssec21 spring repo](https://gitee.com/zjuicsr/ssec21spring-stu)
+- [ssec22 spring repo](https://gitee.com/zjuicsr/ssec22spring-stu)
+- [ssec23 summer repo](https://gitee.com/zjuicsr/ssec23summer-stu)
+
+I have also been one of the mman at the wheel for our school summer courses about basic CTF, please check them at
+
+- [CTF 101 summer course 2022](https://github.com/team-s2/ctf_summer_courses)
+- [CTF 101 summer course 2023](https://courses.zjusec.com/)
+
