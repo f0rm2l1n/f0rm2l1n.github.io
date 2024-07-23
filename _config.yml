@@ -1,7 +1,8 @@
-title: no style, please! # name of the site
+title: Endless Nagging
 author: f0rm2l1n
 email: f0rm2l1n@foxmail.com
 url: https://f0rm2l1n.github.io
+# baseurl: "/nagging"
 description: > # description of the site (multiple lines allowed)
   Description coming soon
 

@@ -2,36 +2,57 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: About
     url: false
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-        url: false
-      - title: github
-        url: https://github.com/riggraz/no-style-please
-      - title: used by riggraz.dev
-        url: https://riggraz.dev/
+      - title: 关于本站
+        url: about-site
+      - title: 关于本人
+        url: about-me
 
-  - title: thoughts
-    post_list: true
-    url: false
-    entries: false
-
-  - title: rss
-    url: feed.xml
+  - title: Posts
+    post_list:
+      category: "postcate"
+      limit: 6
+      show_more: true
+      show_more_url: archive-posts.html
   
-  - title: another list
-    url: false
-    entries:
-      - title: with subitems
-        url: false
-        entries:
-          - title: with subsubitems
-            url: false
-          - title: example page
-            url: about
-  - title: PRO TIP
-    url: false
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
-        url: false
+  - title: Deprecated
+    post_list:
+      category: "deprecated"
+      limit: 4
+      show_more: true
+      show_more_url: archive-deprecates.html
+
+  - title: CTF 错题本
+    post_list:
+      category: "notecate"
+      limit: 6
+      show_more: true
+      show_more_url: archive-notes.html
+
+  - title: Credit
+    url: https://riggraz.dev/no-style-please/
+
+
+  - title: Have fun
+    url: game.html
+
+  - title: RSS
+    url: feed.xml
+
+  # - title: another list
+  #   url: false
+  #   entries:
+  #     - title: with subitems
+  #       url: false
+  #       entries:
+  #         - title: with subsubitems
+  #           url: false
+  #         - title: example page
+  #           url: about
+  # - title: PRO TIP
+    # url: false
+    # entries:
+      # - title: to edit this menu, edit _data/menu.yml file
+        # url: false
